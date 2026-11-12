@@ -172,12 +172,12 @@ set MYSQL_URL=mysql+pymysql://USER:PASSWORD@localhost:3306/retail_promo
 
 PowerShell:
 ```powershell
-$env:MYSQL_URL = "mysql+pymysql://USER:PASSWORD@localhost:3306/retail_promo"
+$env:MYSQL_URL = mysql+pymysql://USER:PASSWORD@localhost:3306/retail_promo
 ```
 
 macOS / Linux:
 ```bash
-export MYSQL_URL="mysql+pymysql://USER:PASSWORD@localhost:3306/retail_promo"
+export MYSQL_URL=mysql+pymysql://USER:PASSWORD@localhost:3306/retail_promo
 ```
 
 Replace `USER` and `PASSWORD` with your own. URL-encode any special characters in the password. The loader empties each table before loading, so it is safe to re-run.
