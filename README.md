@@ -172,7 +172,7 @@ set MYSQL_URL=mysql+pymysql://USER:PASSWORD@localhost:3306/retail_promo
 
 PowerShell:
 ```powershell
-$env:MYSQL_URL = mysql+pymysql://USER:PASSWORD@localhost:3306/retail_promo
+$env:MYSQL_URL = 'mysql+pymysql://USER:PASSWORD@localhost:3306/retail_promo'
 ```
 
 macOS / Linux:
